@@ -4,19 +4,20 @@ Some pre-trained weights are to be found here, which can be used.
 Important to note, there are some "flags" to be found in the "util" module, with which certain logs can be controled (also the ones added subsequently, if necessary), as well as rendering and recording.
 
 ## Required packages
-This is not a comprehensive list of all the packages used in this project, however, the packages listed are the minimum required to run the project.
+This is not a comprehensive list of all the packages used in this project, however, the packages listed here are the minimum required dependencies to run the project.
+Additional dependencies will be necessary (e.g. pyplot etc.) for plotting data gathered from training.
 ### TensorFlow GPU
-    Use conda (miniconda3) to install TensorFlow and all its dependencies - as per the official instructions found on TensorFlow website.
+    'Use conda (miniconda3) to install TensorFlow and all its dependencies - as per the official instructions found on TensorFlow website.'
 ### tf-agents
-    Use pip to install tf-agents WITHIN the conda environment where TensorFlow is set up.
+    'Use pip to install tf-agents WITHIN the conda environment where TensorFlow is set up.'
 ### gymnasium (optional: used for starting the example)
-    Use pip to install gymnasium - can be a global install (not specific to the conda environment).
+    'Use pip to install gymnasium - can be a global install (not specific to the conda environment).'
 ### tkinter
-    Use pip to install tkinter - can be a global install (not specific to the conda environment).
+    'Use pip to install tkinter - can be a global install (not specific to the conda environment).'
 ### pygame
-    Use pip to install pygame - can be a global install (not specific to the conda environment).
+    'Use pip to install pygame - can be a global install (not specific to the conda environment).'
 ### numpy
-    Use pip to install numpy - can be a global install (not specific to the conda environment).
+    'Use pip to install numpy - can be a global install (not specific to the conda environment).'
 
 ## Instructions
 The project is structured so that its components are grouped into modules.
@@ -29,4 +30,4 @@ python3 -m ddpg.cartpole
 
 Similarly, running any other file from the project follows the same scheme e.g. **python3 -m example.pendulum**.
 
-
+For gathering plotting data, there are two simple shell scripts that can be used.
