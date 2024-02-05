@@ -1,5 +1,5 @@
 # DDPG Cart-Pole
-This is my implementation of the DDPG algorithm in a classic, custom cart-pole environment.
+This is my bachelor's thesis project. It is an implementation of the DDPG algorithm in a classic, custom cart-pole environment created by my mentor Dr. Domen Šoberl.
 Some pre-trained weights are to be found here, which can be used.
 Important to note, there are some "flags" to be found in the "util" module, with which certain logs can
 be controled (also the ones added subsequently, if necessary), as well as rendering and recording.
